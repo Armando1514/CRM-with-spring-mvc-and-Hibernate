@@ -1,0 +1,401 @@
+HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+  HHH000342: Could not obtain connection to query metadata : The application must supply JDBC connections
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  SQL Error: 1146, SQLState: 42S02
+  Table 'hb-01-one-to-one-uni.instruction_detail' doesn't exist
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  SQL Error: 1146, SQLState: 42S02
+  Table 'hb-01-one-to-one-uni.instruction_detail' doesn't exist
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  SQL Error: 1146, SQLState: 42S02
+  Table 'hb-01-one-to-one-uni.instruction_detail' doesn't exist
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  SQL Error: 1146, SQLState: 42S02
+  Table 'hb-01-one-to-one-uni.instruction_detail' doesn't exist
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  SQL Error: 1452, SQLState: 23000
+  Cannot add or update a child row: a foreign key constraint fails (`hb-01-one-to-one-uni`.`instructor`, CONSTRAINT `FK_DETAIL` FOREIGN KEY (`instructor_detail_id`) REFERENCES `instructor_detail` (`id`))
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  Connection leak detected: there are 1 unclosed connections upon shutting down pool jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  SQL Error: 1062, SQLState: 23000
+  Duplicate entry 'The pinball masterclass' for key 'course.TITLE_UNIQUE'
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-03-one-to-many?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+  HHH000412: Hibernate ORM core version 5.4.22.Final
+  HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+  HHH10001001: Connection properties: {password=****, user=hbstudent}
+  HHH10001003: Autocommit mode: false
+  HHH000115: Hibernate connection pool size: 1 (min=1)
+  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/hb-04-one-to-many-uni?useSSL=false&serverTimezone=UTC]
+  
