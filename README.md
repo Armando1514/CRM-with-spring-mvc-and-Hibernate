@@ -9,6 +9,10 @@ Few functionalities implemented:
 - Update a Customer.
 - Delete a Customer.
 
+## Architecture (Big Picture)
+
+![bigPicture](./bigPicture.png)
+
 ## How to run this application?
 
 1. Install MySQL database
