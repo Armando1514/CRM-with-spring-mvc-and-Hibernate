@@ -1,15 +1,13 @@
-package mvc.dao;
-
-import java.util.List;
+package mvc.service;
 
 import mvc.entity.Customer;
 
-public interface CustomerDAO {
+import java.util.List;
 
-    public List<Customer> getCustomers();
-
+public interface CustomerService {
 
     void saveCustomer(Customer theCustomer);
+    List<Customer> getCustomers();
 
     Customer getCustomer(int theId);
 

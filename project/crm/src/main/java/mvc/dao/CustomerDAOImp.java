@@ -19,7 +19,6 @@ public class CustomerDAOImp implements CustomerDAO {
     @Autowired
     private SessionFactory sessionFactory;
 
-    @Transactional
     public List<Customer> getCustomers() {
 
         // get the current hibernate session
@@ -27,13 +26,49 @@ public class CustomerDAOImp implements CustomerDAO {
 
         // create a query
         Query<Customer> theQuery =
-                currentSession.createQuery("from Customer", Customer.class);
+                currentSession.createQuery("from Customer order by lastName",
+                                               Customer.class);
 
         // execute query and get result list
         List<Customer> customers = theQuery.getResultList();
 
         // return the results
         return customers;
+    }
+
+    @Override
+    public void saveCustomer(Customer theCustomer) {
+
+        // get current hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        // save the customer
+        // saveOr Update (if primaryKey/ID) empty save, otherwise update
+        currentSession.saveOrUpdate(theCustomer);
+    }
+
+    @Override
+    public Customer getCustomer(int theId) {
+        // get current hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        // read from the database using the primary key
+        Customer theCustomer = currentSession.get(Customer.class, theId);
+
+        return theCustomer;
+    }
+
+    @Override
+    public void deleteCustomer(int theId) {
+        // get current hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        // delete the customer
+        Query theQuery = currentSession.createQuery("delete from Customer where id=:customerId");
+        theQuery.setParameter("customerId", theId);
+
+        theQuery.executeUpdate();
+
     }
 
 
