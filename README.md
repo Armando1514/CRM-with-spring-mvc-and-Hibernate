@@ -35,6 +35,14 @@ If we are transferring funds, we want that to run in the same transaction. By ma
 
 However, if we had @Transactional at DAO level instead of service level, then  the methods deposit() and withdraw() would run in separate transactions. If one of them failed, then we would not be able to rollback the other  method ... because it is in a separate transaction.
 
+### Aspect Oriented Programming (AOP)
+
+Aspect Oriented Programming (Wikipedia): In [computing](https://en.wikipedia.org/wiki/Computing), **aspect-oriented programming** (**AOP**) is a [programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm) that aims to increase [modularity](https://en.wikipedia.org/wiki/Modularity_(programming)) by allowing the [separation of](https://en.wikipedia.org/wiki/Separation_of_concerns) [cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern). It does so by adding behavior to existing code (an [advice](https://en.wikipedia.org/wiki/Advice_(programming))) *without* modifying the code itself, instead separately specifying which code is modified via a "[pointcut](https://en.wikipedia.org/wiki/Pointcut)" specification, such as "log all function calls when the function's name begins with 'set'". This allows behaviors that are not central to the [business logic](https://en.wikipedia.org/wiki/Business_logic) (such as logging) to be added to a program without cluttering the code core to the functionality.
+
+We added AOP Logging Aspect support to our CRM.
+
+![loggingAspect](./loggingAspect.png)
+
 ## How to run this application?
 
 1. Install MySQL database
